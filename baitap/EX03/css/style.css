@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2c3e50; /* Màu nền tối */
+    color: #ffffff; /* Màu chữ chính */
+    display: flex; /* Sử dụng Flexbox để căn chỉnh */
+    justify-content: space-between; /* Căn giữa nội dung */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 20px; /* Khoảng cách nội dung */
+}
+
+h1 {
+    margin: 0; /* Bỏ margin */
+    font-size: 24px; /* Kích thước chữ */
+    font-weight: bold; /* Chữ đậm */
+}
+
+nav {
+    display: flex; /* Flexbox cho menu */
+}
+
+nav a {
+    color: white; /* Màu chữ menu */
+    text-decoration: none; /* Bỏ gạch chân */
+    padding: 0 15px; /* Khoảng cách giữa các mục */
+    font-size: 16px; /* Kích thước chữ */
+}
+
+nav a:hover {
+    color: #ffffff; /* Màu chữ khi hover */
+}
+footer {
+    text-align: center; 
+    padding: 10px; 
+    background: #35424a; 
+    color: white; 
+}
